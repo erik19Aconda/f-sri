@@ -29,12 +29,12 @@ F Sri es un proyecto de código abierto y valoramos todas las contribuciones de 
 1. **Fork** el repositorio en GitHub
 2. **Clona** tu fork:
    ```bash
-   git clone https://github.com/TU_USUARIO/veronica-ec.git
-   cd veronica-ec
+   git clone https://github.com/TU_USUARIO/f-sri.git
+   cd f-sri
    ```
 3. **Agrega el repositorio original** como upstream:
    ```bash
-   git remote add upstream https://github.com/veronica-ec/veronica-ec.git
+   git remote add upstream https://github.com/f-sri/f-sri.git
    ```
 4. **Instala las dependencias**:
    ```bash
@@ -53,7 +53,7 @@ F Sri es un proyecto de código abierto y valoramos todas las contribuciones de 
 
 ### 1. Antes de Empezar
 
-- 🔍 **Revisa** los [issues existentes](https://github.com/veronica-ec/veronica-ec/issues)
+- 🔍 **Revisa** los [issues existentes](https://github.com/f-sri/f-sri/issues)
 - 💬 **Comenta** en el issue si planeas trabajar en él
 - 🆕 **Crea un nuevo issue** si no existe uno relacionado
 
