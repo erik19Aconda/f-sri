@@ -6,6 +6,7 @@ import clientRoutes from './routes/client';
 import productRoutes from './routes/product';
 import invoiceRoutes from './routes/invoice';
 import invoiceDetailRoutes from './routes/invoiceDetail';
+import debitNoteRoutes from './routes/debitNote';
 import verifyToken from './middleware/verifyToken';
 
 export function createApp() {
@@ -19,5 +20,6 @@ export function createApp() {
   app.use('/api/v1/product', productRoutes);
   app.use('/api/v1/invoice', invoiceRoutes);
   app.use('/api/v1/invoice-detail', invoiceDetailRoutes);
+  app.use('/api/v1/debit-note', debitNoteRoutes);
   return app;
 }

@@ -13,6 +13,7 @@ import productRoutes from './routes/product';
 import invoiceRoutes from './routes/invoice';
 import invoiceDetailRoutes from './routes/invoiceDetail';
 import invoicePDFRoutes from './routes/invoicePDF';
+import debitNoteRoutes from './routes/debitNote';
 import verifyToken from './middleware/verifyToken';
 import corsErrorHandler from './middleware/corsErrorHandler';
 
@@ -94,6 +95,7 @@ app.use('/api/v1/product', productRoutes);
 app.use('/api/v1/invoice', invoiceRoutes);
 app.use('/api/v1/invoice-detail', invoiceDetailRoutes);
 app.use('/api/v1/invoice-pdf', invoicePDFRoutes);
+app.use('/api/v1/debit-note', debitNoteRoutes);
 
 // Error handling middleware (debe ir al final)
 app.use(corsErrorHandler);
