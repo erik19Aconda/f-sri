@@ -41,7 +41,7 @@ function createTransporter() {
 }
 
 /**
- * Generates email template for invoice PDF
+ * Generates email template for invoice PDF data
  */
 export function generateInvoiceEmailTemplate(
   invoicePDF: IInvoicePDF,
