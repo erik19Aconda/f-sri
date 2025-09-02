@@ -193,6 +193,8 @@ export async function enviarComprobanteSRI(xmlFirmado: string): Promise<Respuest
           timeout: 30000,
         });
 
+        console.log(response)
+
         if (typeof response.data === 'string') {
           const result = parseXmlResponse(response.data);
           if (result.estado !== 'ERROR_SOAP') {

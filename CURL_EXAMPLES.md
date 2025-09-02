@@ -6,7 +6,7 @@ Esta guía contiene ejemplos prácticos de cURL para interactuar con la API del 
 
 ```bash
 # URL base del servidor (ajusta según tu configuración)
-export BASE_URL="http://localhost:3000"
+export BASE_URL="mongodb+srv://developBase:Ecuador1822*@basedesarrollo.z69pu5m.mongodb.net/?retryWrites=true&w=majority&appName=BaseDesarrollo"
 
 # Para usar en producción
 # export BASE_URL="https://tu-sistema-facturacion.com"

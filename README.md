@@ -93,7 +93,7 @@ MONGODB_URI=mongodb://localhost:27017/f-sri
 # Seguridad
 JWT_SECRET=tu_clave_jwt_super_secreta_aqui
 ENCRYPTION_KEY=clave_encriptacion_32_caracteres!!
-MASTER_REGISTRATION_KEY=clave_maestra_super_secreta
+MASTER_REGISTRATION_KEY=12345
 
 # Servidor
 PORT=3000
@@ -210,7 +210,7 @@ heroku create tu-sistema-facturacion
 # Configurar variables
 heroku config:set MONGODB_URI=tu_mongodb_uri
 heroku config:set JWT_SECRET=tu_jwt_secret
-heroku config:set MASTER_REGISTRATION_KEY=tu_clave_maestra
+heroku config:set MASTER_REGISTRATION_KEY=123456
 
 # Desplegar
 git push heroku main
